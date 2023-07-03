@@ -16,6 +16,7 @@ jobs:
   golangci:
     name: lint
     runs-on: ubuntu-latest
+    if: github.event.pull_request.draft == false
     steps:
       - uses: actions/setup-go@v4
         with:
