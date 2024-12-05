@@ -6,4 +6,3 @@ kind: Kustomization
 images:
 - name: controller
   newName: europe-docker.pkg.dev/kyma-project/prod/istio-manager
-  newTag: 1.0.0
