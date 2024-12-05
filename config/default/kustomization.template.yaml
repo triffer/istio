@@ -39,7 +39,6 @@ resources:
 # If you want your controller-manager to expose the /metrics
 # endpoint w/o any authn/z, please comment the following line.
 #patchesStrategicMerge:
-#- manager_auth_proxy_patch.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
